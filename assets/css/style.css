@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/*Geral*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s;
+}
+.container{
+    padding: 0 4rem;
+}
+.btn-marrom{
+    background-color: #bc9c74;
+    color: #fff;
+    border: none;
+    border: #bc9c74 2px solid;
+}
+.btn{
+    padding: 0.5rem 2.5rem;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+.title-section p, .title-section h1{
+    text-align: center;
+}
+.title-section h1{
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+}
+.title-section p{
+    margin-top: 5rem;
+    text-transform: uppercase;
+    font-size: .9rem; 
+    color: #bc9c74;
+    font-weight: 600;
+}
+
+/*Header*/
+.nav-bar{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    margin: 0 30px;
+
+}
+
+.nav-link{
+    color: #7a7c7b;
+    text-decoration: none;
+}
+header .btn{
+    background-color: black;
+    color: #fff;
+    border:black solid 2px;
+}
+header .btn:hover{
+    background-color: transparent;
+    color: #1c1c1c;
+}
+.mobile-menu{
+    display: none;
+}
+.mobile-menu-icon{
+    display: none;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: space-between;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.banner-header{
+    display: flex;
+    align-items: center;
+}
+.text-banner {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+}
+.text-banner h1{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.text-banner p{
+    color: #7a7c7b;
+    margin: 15px 0;
+    width: 66%;
+}
+.text-banner .btn:last-child{
+    border: #bc9c74 2px solid;
+    background-color: #fff;
+    color: #bc9c74;
+}
+.text-banner .btn:last-child:hover{
+    background-color: #bc9c74;
+    color: #fff;
+}
+.img-banner{
+    width: 669px;
+    height: 570px;
+    background-image: url('../img/hall-de-entrada-com-espelho.jpg');
+    z-index: -1;
+}
+.footer-banner{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: -80px;
+    width: 80%;
+    box-shadow: 0 0.1rem 0.5rem rgb(0 0 0 / 15%);
+}
+
+.footer-banner ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.items-banner{
+    display: flex;
+    align-items: center;
+}
+
+.items-banner img{
+    width: 40px;
+    margin-right: 8px;
+}
+
+
+/* Projetos*/
+
+.projetos-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.projetos-items{
+    width: 330px;
+    height: 280px;
+    background-size: cover;
+    margin-bottom: 4rem;
+}
+.projetos-items:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0.1rem 0.5rem rgb(0 0 0 / 15%);
+}
+.projetos-items a{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    text-decoration: none;
+    opacity: 0;
+    transform: translate(0, 10px);
+}
+
+.projetos-items h3{
+    color: #bc9c74;
+    background-color: rgba(255, 255, 255, 0.89);
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+.projetos-items a:hover{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+.projetos button{
+    margin-right: 3rem;
+}
+.projetos .btn:last-child{
+    background-color: #7a7c7b;
+    color: #fff;
+    border: #7a7c7b;
+}
+
+/*Numeros */
+
+.numeros ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.numeros ul li{
+    text-align: center;
+}
+.numeros ul li h3{
+    font-size: 2rem;
+    color: #bc9c74;
+}
+
+/* Orcamento */
+.orcamento{
+    margin-bottom: 5rem;
+}
+.orcamento form input{
+    height: 2.5rem;
+    background-color: #ececec;
+    color: #7a7c7b;
+    border: none;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+    border-radius: 5px;
+}
+
+.orcamento form input:focus{
+    outline: none;
+}
+.orcamento-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orcamento button{
+    margin-left: 18rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 270px;
+    background-color: #1c1c1c;
+    
+}
+footer.container{
+    padding-top: 3rem;
+}
+footer h4{
+    color: #bc9c74;
+    margin-bottom: 10px;
+}
+footer li, footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer li{
+    margin-top: 20px;
+}
+.footer-list{
+    padding-top: 3rem;
+}
+.social{
+    display: flex;
+}
+.social li{
+    margin-right: 15px;
+}
+.social i{
+    font-size: 1.5rem;
+    border-radius: 30px;
+    padding: 10px 14px;
+}

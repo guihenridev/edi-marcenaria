@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Móveis Planejados</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="nav-bar container">
+            <div class="logo">
+                <img src="assets/img/logo.png" width="100px"  alt="logo">
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Alguns Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><i class="icon fa-solid fa-bars "></i></button>
+            </div>
+            <div>
+                <a href="#"><button class="btn">Solicitar Orçamento</button></a>
+            </div>
+        </nav>
+        <div class="mobile-menu container">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Alguns Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+        
+    </header>
+    <section class="banner">
+        <div class="banner-header">
+            <div class="text-banner container">
+                <h1>Móveis Planejados</h1>
+                <p>Essa é a sua oportunidade de deixar sua casa do jeitinho que sempre sonhou</p>
+                <div>
+                    <button class="btn btn-marrom">Solicitar Orçamento</button>
+                    <button class="btn">Entrar em contato</button>
+                </div>
+            </div>
+            <div class="img-banner">
+                
+            </div>
+        </div>
+        <div class="footer-banner container">
+            <ul>
+                <li class="items-banner"><img src="assets/img/qualidade.png" alt="Qualidade"><p><strong>Móveis com 5 anos</strong><br> de garantia</p></li>
+                <li class="items-banner"><img src="assets/img/despesas.png" alt="Orçamento"><p><strong>Seu Orçamento</strong><br> personalizado</p></li>
+                <li class="items-banner"><img src="assets/img/diamante.png" alt="Garantia"><p><strong>Móveis em 100%</strong><br> MDF</p></li>
+                <li class="items-banner"><img src="assets/img/projeto.png" alt="Projeto"><p><strong>Montagem completa</strong><br> do Projeto</p></li>
+            </ul>
+        </div>
+
+    </section>
+    <section class="projetos container">
+        <div class="title-section">
+            <p>Projetos Ed Planejados</p>
+            <h1>Alguns Projetos</h1>
+        </div>
+        <div class="projetos-grid">
+            <div class="projetos-items" style="background-image: url('assets/img/projeto1.webp');">
+                <a href="" >
+                    <!-- <img src="assets/img/projeto1.webp" alt="Projeto 1"> -->
+                    <h3>Projeto 1</h3>
+                </a>
+            </div>
+
+            <div class="projetos-items" style="background-image: url('assets/img/projeto2.jpg');">
+                <a href="">
+                    <!-- <img src="assets/img/projeto2.jpg" alt="Projeto 2"> -->
+                    <h3>Projeto 2</h3>
+                </a>
+            </div>
+
+            <div class="projetos-items" style="background-image: url('assets/img/projeto3.jpg');">
+                <a href="">
+                    <!-- <img src="assets/img/projeto3.jpg" alt="Projeto 3"> -->
+                    <h3>Projeto 3</h3>
+                </a>
+            </div>
+            <div class="projetos-items"style="background-image: url('assets/img/projeto4.jpg');">
+                <a href="">
+                    <!-- <img src="assets/img/projeto4.jpg" alt="Projeto 4"> -->
+                    <h3>Projeto 4</h3>
+                </a>
+            </div>
+            <div class="projetos-items" style="background-image: url('assets/img/projeto5.jpg');">
+                <a href="">
+                    <!-- <img src="assets/img/projeto5.jpg" alt="Projeto 5"> -->
+                    <h3>Projeto 5</h3>
+                </a>
+            </div>
+            <div class="projetos-items" style="background-image: url('assets/img/projeto6.jpg');">
+                <a href="">
+                    <!-- <img src="assets/img/projeto6.jpg" alt="Projeto 6"> -->
+                    <h3>Projeto 6</h3>
+                </a>
+            </div>
+        </div>
+        <div style="    display: flex;
+        justify-content: center;">
+            <button class="btn btn-marrom">Solicitar Orçamento</button>
+            <button class="btn">Fale Conosco</button>
+        </div>
+    </section>
+    <section class="numeros container">
+        <div class="title-section">
+            <p>Um pouco mais de nós</p>
+            <h1>Nossos Números</h1>
+        </div>
+        <ul>
+            <li class="numeros-list">
+                <h3>+ 300</h3>
+                <p>clientes satisfeitos</p>
+            </li>
+            <li class="numeros-list">
+                <h3>+ 32</h3>
+                <p>anos no mercado</p>
+            </li>
+            <li class="numeros-list">
+                <h3>+ 15</h3>
+                <p>colaboradores no projeto</p>
+            </li>
+        </ul>
+    </section>
+    <section class="orcamento container">
+        <div class="title-section">
+            <p>Dê o primeiro passo para seu sonho</p>
+            <h1>Solicitar orçamento</h1>
+        </div>
+        <form action="">
+            <div class="orcamento-input">
+                <div>
+                    <input type="text" placeholder="Nome" required>
+                    <input type="tel" placeholder="DDD + Telefone" required>
+                </div>
+                <input style="width: 40.2rem;" type="email" placeholder="Seu melhor email" required>
+            </div>
+            <button type="submit" class="btn btn-marrom" onclick="preventDefault()">Próximo</button>
+        </form>
+    </section>
+
+    <footer class="container">
+        <div style="width: 25%;">
+            <img src="assets/img/logo-footer.png" width="100px" alt="logo">
+            <ul>
+                <li>contato@email.com</li>
+                <li>Todos os direitos reservados. Desenvolvido por <a style="color: #5881FF; font-weight: bolder;" href="http://guiwebdesigner.site/" target="_blank">Gui <span style="color: #7A7A7A; font-weight: normal;"> &lt;webdesigner/&gt;</span> </a></li>
+            </ul>
+        </div>
+        <div class="footer-list">
+            <h4>Links úteis</h4>
+            <ul>
+                <li><a href="">Início</a></li>
+                <li><a href="">Sobre nós</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </div>
+        <div class="footer-list">
+            <h4>Conheça mais</h4>
+            <ul>
+                <li><a href="">Alguns projetos</a></li>
+                <li><a href="">Onde estamos</a></li>
+            </ul>
+        </div>
+        <div class="footer-list">
+            <h4>Nos siga</h4>
+            <ul class="social">
+                <li><a href=""><i class="fa-brands fa-facebook-f" style="background-color: #35589b;"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram" style="background-color: #3f749e;"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
