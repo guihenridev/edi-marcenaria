@@ -127,6 +127,11 @@
         padding-top: 2rem;
         align-items: center;
     }
+    .text-banner p {
+
+        width: 100%;
+        text-align: center;
+    }
     .img-banner {
         display: none;
     }
