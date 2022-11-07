@@ -132,6 +132,9 @@
         width: 100%;
         text-align: center;
     }
+    .text-banner h1 {
+        text-align: center;
+    }
     .img-banner {
         display: none;
     }
@@ -203,4 +206,13 @@
     .projetos button {
         margin-right: 1rem;
     }
+}
+@media  only screen and (max-width:430px) {
+    .btn {
+        padding: 0.4rem 0.3rem;
+    }
+    .items-banner p {
+        font-size: .4rem;
+    }
+    
 }
