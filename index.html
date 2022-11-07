@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/style-mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="imagem/png" href="assets/img/logo-footer.png"/>
 </head>
 <body>
     <header>
@@ -29,7 +30,7 @@
                 <button onclick="menuShow()"><i class="icon fa-solid fa-bars "></i></button>
             </div>
             <div>
-                <a href="#"><button class="btn">Solicitar Orçamento</button></a>
+                <a href="#"><button class="btn btn-orc">Solicitar Orçamento</button></a>
             </div>
         </nav>
         <div class="mobile-menu container">
@@ -39,6 +40,9 @@
                     <li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
             </ul>
+            <div>
+                <a href="#"><button class="btn btn-orc">Solicitar Orçamento</button></a>
+            </div>
         </div>
         
     </header>
@@ -148,9 +152,10 @@
                     <input type="text" placeholder="Nome" required>
                     <input type="tel" placeholder="DDD + Telefone" required>
                 </div>
-                <input style="width: 40.2rem;" type="email" placeholder="Seu melhor email" required>
+                <input id="input-email" type="email" placeholder="Seu melhor email" required>
+                <button type="submit" class="btn btn-marrom" onclick="preventDefault()">Próximo</button>
             </div>
-            <button type="submit" class="btn btn-marrom" onclick="preventDefault()">Próximo</button>
+            
         </form>
     </section>
 

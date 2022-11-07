@@ -1,0 +1,201 @@
+@media only screen and (max-width: 1100px) {
+    .projetos-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .img-banner {
+        width: 569px;
+    }
+    .text-banner h1 {
+        font-size: 4rem;
+    }
+
+}
+@media only screen and (max-width: 1000px) {
+    .btn {
+        padding: 0.4rem 1.5rem;
+
+    }
+    .img-banner {
+        width: 500px;
+    }
+    
+}
+@media only screen and (max-width: 920px){
+    .img-banner {
+        width: 469px;
+        height: 470px;
+    }
+    .text-banner h1 {
+        font-size: 3.5rem;
+    }
+    .footer-banner{
+        padding: 1rem;
+        margin-top: -48px;
+    }
+    .items-banner p{
+        font-size: .7rem;       
+    }
+
+    
+    
+}
+@media only screen and (max-width: 860px) {
+    .img-banner {
+        width: 370px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .btn {
+        padding: 0.4rem 1rem;
+    }
+    .text-banner h1 {
+        font-size: 2.5rem;
+    }
+    .nav-list{
+        display: none;
+    }
+    .btn-orc{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        right: 6%;
+    }
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        font-size: 1.5rem;
+    }
+    .mobile-menu ul{
+        text-align: center;
+    }
+    .mobile-menu .nav-item{
+      display: block;
+      padding-top: 1.5rem;
+      text-align: end;
+    }
+    
+    .mobile-menu{
+      background-color: rgba(255, 255, 255, 0.862);
+      position: absolute;
+      transition: all 0.5s ease;
+      right: 0px;
+      top: 70px;
+      padding: 2rem;
+    }
+    .open{
+        display: block;
+        position: absolute;
+        opacity: 1;
+        z-index: 100;
+        transform: translateY(10px);
+      }
+      .nav-item{
+          margin: 0;
+          
+      }
+
+
+
+    .projetos-items {
+        width: 270px;
+        height: 220px;
+    }
+    .orcamento form input {
+        width: 15rem;
+    }
+    #input-email{
+        width: 30.2rem;
+    }
+
+    footer.container {
+        padding: 4rem 1rem;
+    }
+
+}
+  
+@media only screen and (max-width:670px) {
+    .container {
+        padding: 0 2rem;
+    }
+    .nav-bar {
+        padding-top: 1rem;
+    }
+    .text-banner {
+        padding-top: 2rem;
+        align-items: center;
+    }
+    .img-banner {
+        display: none;
+    }
+    .btn {
+        padding: 0.4rem 0.5rem;
+    }
+    
+    .items-banner img {
+        width: 25px;
+    }
+    .items-banner p {
+        font-size: .55rem;
+    }    
+    .footer-banner {
+        padding: 1rem;
+        margin-top: 60px;
+    }
+
+    .projetos-items {
+        width: 200px;
+        height: 170px;
+    }
+
+    .numeros-list p{
+        font-size: .8rem;
+    }
+    .numeros ul li h3 {
+        font-size: 1.7rem;
+    }
+    
+    footer li, footer a {
+        font-size: .8rem;
+    }
+    
+}
+@media only screen and (max-width:520px){
+    .footer-banner{
+        width: 95%;
+    }
+    
+    #input-email {
+        width: 26.2rem;
+    }
+    .orcamento form input {
+        width: 13rem;
+    }
+    .social i {
+        font-size: 1rem;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+      
+}
+
+@media only screen and (max-width:490px){
+    .orcamento form input {
+        width: 10rem;
+    }
+    #input-email {
+        width: 20.2rem;
+    }
+    .projetos-items {
+        width: 170px;
+        height: 120px;
+        background-position: center;
+    }
+    .projetos button {
+        margin-right: 1rem;
+    }
+}

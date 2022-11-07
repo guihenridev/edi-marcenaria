@@ -67,7 +67,8 @@ header .btn:hover{
     color: #1c1c1c;
 }
 .mobile-menu{
-    display: none;
+    z-index: -1;
+    opacity: 0;
 }
 .mobile-menu-icon{
     display: none;
@@ -111,10 +112,12 @@ header .btn:hover{
     color: #fff;
 }
 .img-banner{
-    width: 669px;
+    width: 560px;
     height: 570px;
     background-image: url('../img/hall-de-entrada-com-espelho.jpg');
     z-index: -1;
+    background-size: cover;
+    background-position-x: center;
 }
 .footer-banner{
     background-color: #fff;
@@ -206,6 +209,11 @@ header .btn:hover{
 .orcamento{
     margin-bottom: 5rem;
 }
+.orcamento form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 .orcamento form input{
     height: 2.5rem;
     background-color: #ececec;
@@ -225,19 +233,20 @@ header .btn:hover{
     flex-direction: column;
     align-items: center;
 }
-.orcamento button{
-    margin-left: 18rem;
+#input-email{
+    width: 40.2rem;
 }
 
 footer{
     display: flex;
     justify-content: space-around;
-    height: 270px;
+    flex-wrap: wrap;
+    height: inherit;
     background-color: #1c1c1c;
     
 }
-footer.container{
-    padding-top: 3rem;
+footer.container {
+    padding: 4rem;
 }
 footer h4{
     color: #bc9c74;
